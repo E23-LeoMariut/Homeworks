@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>HandyHub</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <style> 
+            @import url('https://fonts.cdnfonts.com/css/bauhaus-modern');
+
+            html, body {
+                height: 100%;
+            }
+
+            .spaced {
+                padding: 2%;
+            }
+
+            .blur {
+                text-align:center;
+                border:2px solid white;
+                border-radius:20px;
+                
+                backdrop-filter:blur(5px) brightness(80%);
+
+                padding: 5%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+
+            label {
+                color: white;
+                margin: 0;
+            }
+            .form-group {
+                z-index: 2;
+            }
+
+            .form-text {
+                font-size: large;
+                border:2px solid white;
+            }
+
+            .h-10 {
+                height: 10%;
+            }
+
+            .wallpoet {
+                font-family: 'Wallpoet';
+                color: white;
+            }
+
+            hr.solid {
+                border-top: 1px solid #fff;
+            }
+
+            hr.solid-thick {
+                border-top: 3px solid #fff;
+            }
+
+            .h2 {
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+
+                font-family: 'Bauhaus Modern', sans-serif;
+            }
+
+            .bg-img-fill {
+                background-image: url('https://wallpapers.com/images/hd/psychedelic-background-9tqm3fz19fnz0zdm.jpg'); 
+                height: 100vh; background-position: center; 
+                background-repeat: no-repeat; 
+                background-size: cover;
+                background-attachment: fixed;
+            }
+        </style>
+
+        <script src="./API/main.js"></script>
+    </head>
+
+    <body class="bg-image bg-img-fill">
+
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h4 class="text-white">Navbar content</h4>
+                <span class="text-muted">Some text there.</span>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark sticky-top">
+                <a class="navbar-brand" href="#">
+                    <img src="https://store-images.s-microsoft.com/image/apps.14480.14293036677990488.7c9481b5-8588-4b57-b972-eced5687c183.b7cae2fc-892b-459e-8569-5a18c2ddf98e?h=464" width="30" height="30" class="d-inline-block align-top" alt="">
+                    HandyHub
+                </a>
+
+              <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div>
+
+        <div class="container justify-content-center h-75">
+            <div class="row justify-content-md-center m-3 h-75">
+                <div class="col-8">
+                    <div class="blur w-100 h-100 p-0 overflow-hidden">
+                        <div class="row overflow-auto flex-nowrap m-0 w-100">
+                            <div class="m-3 h-100">
+                                <img class="img-responsive"src="https://www.nationalgeographic.it/upload/ngi-hero/cover-1685960847724-Hero_100.jpg" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" style="max-width: 3543px; height: 277px; margin: 0px; width: 415px;" alt="Le 100 foto più belle&quot;: in edicola con National Geographic Italia il numero  speciale che celebra l'arte della fotografia | National Geographic" jsname="kn3ccd" aria-hidden="false">
+                            </div>
+                            <div class="m-3 h-100">
+                                <img class="img-responsive"src="https://img.freepik.com/free-photo/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise_335224-794.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.1880011253.1698969600&amp;semt=sph" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" style="max-width: 626px; height: 276px; margin: 0px; width: 414px;" alt="Foto Hd, oltre 2.422.000 Foto Stock Gratuite di Alta Qualità" jsname="kn3ccd" aria-hidden="false">
+                            </div>
+                            <div class="m-3 h-100">
+                                <img class="img-responsive"src="https://img.freepik.com/free-photo/bird-with-word-eagle-its-wings_1340-33393.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.386372595.1697673600&amp;semt=sph" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" style="max-width: 626px; height: 276px; margin: 0px; width: 414px;" alt="Foto Aquilotto, oltre 2.000 Foto Stock Gratuite di Alta Qualità" jsname="kn3ccd" aria-hidden="false">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blur w-100 h-100">
+                        <div class="row">
+                            <div class="col h-100">
+                                <p class = "h2"> Product detail </p>
+                            </div>
+                        </div>
+
+                        <hr class="solid">
+                        
+                        <div id="panel">
+                            <div class="col h-100 text-left" id="prodPanel">
+                                <h3 class="text-white" id="title">Title</h3>
+                                <hr class="solid">
+                                <p class="text-white" id="descr">A brief description about nothing</p>
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="d-flex flex-row w-100">
+                        <div class="d-flex flex-column w-75 mt-2" style="padding-right: 2%;">
+                            <button id="editbtn" onclick=onEdit() class="btn btn-primary form-control">Edit</button>
+                        </div>
+                        <div class="d-flex flex-column w-75 mt-2"  style="padding-left: 2%;">
+                            <button id="savebtn" disabled onclick=onSave() class="btn btn-primary form-control">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
